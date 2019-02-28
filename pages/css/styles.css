@@ -1,0 +1,130 @@
+/* Optional: Import normalisation: */
+@import 'normalize.css';
+
+/* ---------------------------------------------------------
+CSS - Template
+
+Add your prefered Styles here
+---------------------------------------------------------*/
+
+  body {
+    font-size: 100%;
+    font-family: Helvetica, sans-serif;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  h1 { 
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+  /* ----------------------------------------------------------
+   * Styling the form  
+   * ----------------------------------------------------------*/
+
+  form {
+    /*font-size: 0.75rem; */
+  }
+
+  fieldset {
+    float: left;
+    width: 44%;
+  }
+
+  input {
+    font-size: 0.75rem;
+    padding: 0.2rem 0rem 0.2rem 0.2rem;
+  }
+
+  input[type = range] {
+    vertical-align: middle;
+  }
+
+  input[type = button] {
+    padding: 0.28rem 0.4rem 0.28rem 0.4rem;
+    margin: 0 0.4rem 0 0.4rem;
+    vertical-align: middle;
+  }
+
+  label {
+    font-size: 0.75rem;
+    vertical-align: middle;
+  }
+  
+  /* ----------------------------------------------------------
+   * Styling the Layout 
+   * ----------------------------------------------------------*/
+
+  header {
+    padding: 0 1rem;
+    float: left;
+    background-color: #fff;
+    width: 100%;
+    height: 55px; 
+  }
+
+  footer {
+    clear: both;
+  }
+
+  #wrap {
+    /*padding: 20px;*/
+    /*max-width: 1160px;
+    min-width: 900px;
+    width: 1160px;*/
+    width: 100%;
+    padding: 1.724137931%;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  #diagram {
+    float: left;
+    min-width: 636px;
+    /*width: 54.827586207%;
+    z-index: 0;*/
+  }
+
+  #response {
+    float: left;
+    width: 484px;
+    min-width: 300px;
+
+    /* width: 484px; 
+    max-width: 484px;
+    max-width: 41.724137931%;
+    z-index: 10;*/
+    
+  }
+
+  #synth {
+    float: left;
+/*    min-width: 300px;
+    max-width: 1160px;
+    width: 100%;
+    padding: 3%;
+    background-color: #eee;*/
+  }
+
+  #additional {
+    float: left;
+    clear: top;
+    background-color: #eee;
+    padding: 1rem;
+  }
+
+
+  /* Default link styling */
+  a:link { color:#0271fb; }
+  a:visited { color:#bd02fb; }
+  a:hover, a:focus { color:#000; }
+  a:active { color:#fb0e02; }
+
+
+
