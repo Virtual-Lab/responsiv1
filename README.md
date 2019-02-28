@@ -14,7 +14,9 @@ icecast needs to be installed, could be installed with homebrrew in the terminal
 needs some configuration in the configuration file to fit your needs.
 Also see: http://icecast.org/
 
-the shell script startbutt starts the "butt" application on a mac
+the shell script startbutt starts the "butt" application on a mac which servers the icecast server
+It can take any input from the soundcard or the output of any application
+also see: https://danielnoethen.de/
 
 Instructions
 
