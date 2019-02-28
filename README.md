@@ -6,14 +6,22 @@ parameters of sound are mapped to visuals
 
 This is a test application
 
+the shell scripts start_stream.sh starts an icecast server to stream audio content in the network
+icecast needs to be installed, could be installed with homebrrew in the terminal
+
+brew install icecast
+
+needs some configuration in the configuration file to fit your needs.
+Also see: http://icecast.org/
+
+the shell script startbutt starts the "butt" application on a mac
+
 Instructions
 
     install cloudspeaker and maincomputer (which is running supercollider and the rhizome server)
     connect them to a local network (best with lan, also works with wlan)
     load the supercollider patch in the supercolider IDE
-    look up ip-adresses of the cloudspeaker and modify the ~ip variable in supercollider
-    start the rhizome server (it needs nodejs Version 6, see intructions below)
-    boot the server in supercollider IDE and evaluate the file (e.g. on Mac: CMD-B, CMD-A, CMD-)
+    evaluate the file (e.g. on Mac: CMD-B, CMD-A, CMD-)
     connect to the webpage (running on http://localhost:8000 or http://ip-adress-of-your-computer:8000) with a mobile phone, tablet or computer in the same network
     also works over internet, if the server is running the rhizome server and the ports which are configurated the config.js are open
 
