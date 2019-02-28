@@ -4,12 +4,12 @@ This is a version of a performance with SuperCollider and mobilephones
 It uses a rhizome server (based on node.js) and javascript
 parameters of sound are mapped to visuals
 
-This is a test application
+This is a test application - also in development
 
 the shell scripts start_stream.sh starts an icecast server to stream audio content in the network
 icecast needs to be installed, could be installed with homebrrew in the terminal
 
-brew install icecast
+<code>brew install icecast</code>
 
 needs some configuration in the configuration file to fit your needs.
 Also see: http://icecast.org/
