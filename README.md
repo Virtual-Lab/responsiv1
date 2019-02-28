@@ -29,28 +29,28 @@ Instructions
 
 How to start the rhizome application:
 
-    install node.js and npm (It needs node Version 6) it is the best opportunity to install it with nvm:
-    https://github.com/creationix/nvm
+install node.js and npm (It needs node Version 6) it is the best opportunity to install it with nvm:
+https://github.com/creationix/nvm
 
-    install nvm with terminal
-    <code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash</code>
+install nvm with terminal
+<code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash</code>
 
-    or Wget:
+or Wget:
 
-    <code>wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash</code>
+<code>wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash</code>
 
-    install node 6 and use it:
+install node 6 and use it:
 
-    <code>nvm install 6</code>
-	<code>nvm use 6</code>
+<code>nvm install 6</code>
+<code>nvm use 6</code>
 
-    You can also download an installer directly from Node.js website.
+You can also download an installer directly from Node.js website.
 
-    Install rhizome
+Install rhizome
 
-    Open a terminal, and simply run 
-    <code>npm install -g rhizome-server</code>
-    
+Open a terminal, and simply run 
+<code>npm install -g rhizome-server</code>
+
     If this succeeded, you can try to run rhizome. This should print rhizome help message.
 
     To start the server, open your terminal, go to the example folder and run `rhizome config.js`. This should start the server and print an extract of the configuration.
