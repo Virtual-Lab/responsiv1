@@ -20,12 +20,12 @@ also see: https://danielnoethen.de/
 
 Instructions
 
-    install cloudspeaker and maincomputer (which is running supercollider and the rhizome server)
-    connect them to a local network (best with lan, also works with wlan)
-    load the supercollider patch in the supercolider IDE
-    evaluate the file (e.g. on Mac: CMD-B, CMD-A, CMD-RETURN)
-    connect to the webpage (running on http://localhost:8000 or http://ip-adress-of-your-computer:8000) with a mobile phone, tablet or computer in the same network
-    also works over internet, if the server is running the rhizome server and the ports which are configurated the config.js are open
+install cloudspeaker and maincomputer (which is running supercollider and the rhizome server)
+connect them to a local network (best with lan, also works with wlan)
+load the supercollider patch in the supercolider IDE
+evaluate the file (e.g. on Mac: CMD-B, CMD-A, CMD-RETURN)
+connect to the webpage (running on http://localhost:8000 or http://ip-adress-of-your-computer:8000) with a mobile phone, tablet or computer in the same network
+also works over internet, if the server is running the rhizome server and the ports which are configurated the config.js are open
 
 How to start the rhizome application:
 
@@ -41,7 +41,7 @@ or Wget:
 
 install node 6 and use it:
 
-<code>nvm install 6</code>
+<code>nvm install 6</code><br />
 <code>nvm use 6</code>
 
 You can also download an installer directly from Node.js website.
@@ -51,12 +51,12 @@ Install rhizome
 Open a terminal, and simply run 
 <code>npm install -g rhizome-server</code>
 
-    If this succeeded, you can try to run rhizome. This should print rhizome help message.
+If this succeeded, you can try to run rhizome. This should print rhizome help message.
 
-    To start the server, open your terminal, go to the example folder and run `rhizome config.js`. This should start the server and print an extract of the configuration.
+To start the server, open your terminal, go to the example folder and run `rhizome config.js`. This should start the server and print an extract of the configuration.
 
-    To open the web page (websocket client), just go to [http://localhost:8000/index.html](http://localhost:8000/index.html).
+To open the web page (websocket client), just go to [http://localhost:8000/index.html](http://localhost:8000/index.html).
 
-    All the code for the web page is in [pages/index.html](pages/index.html) 
+All the code for the web page is in [pages/index.html](pages/index.html) 
 
 
