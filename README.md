@@ -23,7 +23,7 @@ Instructions
     install cloudspeaker and maincomputer (which is running supercollider and the rhizome server)
     connect them to a local network (best with lan, also works with wlan)
     load the supercollider patch in the supercolider IDE
-    evaluate the file (e.g. on Mac: CMD-B, CMD-A, CMD-)
+    evaluate the file (e.g. on Mac: CMD-B, CMD-A, CMD-RETURN)
     connect to the webpage (running on http://localhost:8000 or http://ip-adress-of-your-computer:8000) with a mobile phone, tablet or computer in the same network
     also works over internet, if the server is running the rhizome server and the ports which are configurated the config.js are open
 
@@ -33,22 +33,23 @@ How to start the rhizome application:
     https://github.com/creationix/nvm
 
     install nvm with terminal
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+    <code>curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash</code>
 
     or Wget:
 
-    wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+    <code>wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash</code>
 
     install node 6 and use it:
 
-    nvm install 6 nvm use 6
+    <code>nvm install 6</code>
+	<code>nvm use 6</code>
 
     You can also download an installer directly from Node.js website.
 
     Install rhizome
 
     Open a terminal, and simply run 
-    npm install -g rhizome-server
+    <code>npm install -g rhizome-server</code>
     
     If this succeeded, you can try to run rhizome. This should print rhizome help message.
 
