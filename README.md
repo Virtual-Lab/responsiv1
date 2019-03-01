@@ -1,6 +1,6 @@
 # responsive1
 
-This is a version of a performance with SuperCollider and mobilephones 
+This is a test-performance with SuperCollider and mobilephones 
 It uses a rhizome server (based on node.js) and javascript
 parameters of sound are mapped to visuals
 
@@ -48,7 +48,7 @@ You can also download an installer directly from Node.js website.
 
 Install rhizome
 
-Open a terminal, and simply run 
+Open a terminal, and simply run <br />
 <code>npm install -g rhizome-server</code>
 
 If this succeeded, you can try to run rhizome. This should print rhizome help message.
