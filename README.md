@@ -53,7 +53,9 @@ Open a terminal, and simply run <br />
 
 If this succeeded, you can try to run rhizome. This should print rhizome help message.
 
-To start the server, open your terminal, go to the example folder and run `rhizome config.js`. This should start the server and print an extract of the configuration.
+To start the server, open your terminal, go to the example folder and run 
+<br />`rhizome config.js` <br />
+This should start the server and print an extract of the configuration.
 
 To open the web page (websocket client), just go to [http://localhost:8000/index.html](http://localhost:8000/index.html).
 
